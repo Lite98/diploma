@@ -356,12 +356,14 @@ body {
     height: 20%;
     border-radius: 15px;
     border: 2px solid #DEEDEE;
+    padding: 1% 2% 1% 2%;
 }
 
 .btn-order {
     align-items: center;
     justify-content: center;
     border-radius: 40px;
+    color: #36BBCE;
     border:#DEEDEE solid 1px;
     background: #DEEDEE;
     padding: 2% 4% 2% 4%;
@@ -455,12 +457,76 @@ body {
 	z-index: 99999;
 	opacity: 1;	
 }
+
 .popup-close {
 	position: absolute;
 	top: 10px;
 	right: 10px;
 }
 
+/*application*/
+
+.application {
+    margin-left: 5.2%;
+    margin-top: 2.9%;
+}
+
+.title_add_aplication {
+    color: #076B7A;
+    font-size: 40px;
+}
+
+.add_aplication {
+    margin-left: 40%;
+    margin-top: 2.9%;
+    font-size: 22px;
+    color: #36BBCE;
+}
+
+.add_application-btn {
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 8.5%;
+    color: white;
+    border: #DEEDEE;
+    border-radius: 15px;
+    background-color: #36BBCE;
+    padding: 0.5% 2% 0.5% 2%;
+    cursor: pointer;
+}
+
+.application_list {
+    margin-left: 5.2%;
+    margin-top: 2.9%;
+}
+
+.title_your_aplications {
+    color: #076B7A;
+    font-size: 40px;
+}
+
+.your_application {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+}
+
+.applibox {
+    margin-top: 2.9%;
+    width: 20%;
+    border:#076B7A solid 2px;
+    border-radius: 11px;
+}
+
+.date_info {
+    color: #076B7A;
+    font-size: 26px;
+}
+
+.list_info_app {
+    color:#36BBCE;
+    font-size: 20px;
+}
 
 /*end*/
 
@@ -474,4 +540,1300 @@ body {
     max-height: 85px;
     border-top: 2px solid #36BBCE;
     border-radius: 15px;
+}
+
+/*adaptiv*/
+
+@media (min-width: 768px){
+    .logo_menu {
+        margin-left: 5.2%;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    .link_menu{
+        margin-left: 12.2%;
+        padding-top: 5.42%;
+        font-size: 12px;
+    }
+    .link_list_menu {
+        gap: 15px;
+    }
+    .connect_menu {
+        margin-left: 3.13%;
+        padding-top: 4.7%;
+    }
+    .slider {
+        margin-left: 5.2%;
+        margin-top: 2.1%;
+        margin-right: 5.2% ;
+    }
+    .info  {
+        margin-right: 5.2%;
+        margin-left: 5.2%;
+        margin-top: 5.2%;
+    }
+    .txt_info {
+        font-size: 20px;
+        max-height: 320px;
+        margin-bottom: 5.2%;
+    }
+    .top_img_info {
+        margin-top: 13%;
+        margin-left: 9.2%;
+    }
+    .top_img_info img {
+        width: 90%;
+    }
+    .bot_img_info{
+        margin-left: 9.2%;
+        margin-top: 2.3%;
+        gap: 9%;
+    }
+    .bot_img_info img {
+        width: 40%;
+    }
+    .title_services {
+        margin-top: 1.9%;
+        font-size: 20px;
+        margin-left: 5.2%;
+    }
+    .services {
+        margin-top: 5.2%;
+        gap: 5.9%;
+        margin-left: 5.2%;
+        margin-right: 5.2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service_el {
+        margin-top: 2.2%;
+        width: 200px;
+        height: 350px;
+        background: #DEEDEE;
+    }
+    .img_service {
+        display: block;
+        margin-top: 28.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_services {
+        max-width: 200px;
+        height: 25%;
+        margin-left: 11%;
+        margin-top: 17%;
+        font-size: 22px;
+        color: #076B7A;
+    }
+    .content-box {
+        font-size: 12px;
+    }
+    .btn_services {
+        margin-top: 18%;
+        margin-left: 21%;
+        font-size: 18px;
+        border-radius: 15px;
+        padding: 0.5% 4% 0.5% 4%;
+    }
+    .name_services {
+        width: 60%;
+    }
+    .prices_services {
+        width: 35%;
+    }
+    .add_service {
+        color: #36BBCE;
+        background-color: #DEEDEE;
+        border-radius: 6px;
+        border: 1px solid #076B7A;
+        padding: 1% 2% 1% 2%;
+    }
+    .title_data {
+        color: #076B7A;
+        margin-top: 6.9%;
+        font-size: 20px;
+        margin-left: 5.2%;
+    }
+    .content-box {
+        font-size: 10px;
+    }
+    .data_info {
+        margin-left: 5.2%;
+        margin-top: 6.9%;
+        margin-right: 5.2%;
+        margin-bottom: 5.2%;
+        font-size: 16px;
+    }
+    .data_contact {
+        width: 35%;
+    }
+    .data_map {
+        width: 65%;
+        padding-left: 5%;
+    }
+    .end_index {
+        font-size: 20px;
+    }
+    .txt_goods {
+        font-size: 20px;
+    }
+    .map_goods {
+        width: 30.9%;
+        height: 350px;
+    }
+    .imgs_goods {
+        width: 100%;
+        height: 50%;
+    }
+    .imgs_goods img {
+        width: 99%;
+        height: 100%;
+    }
+    .name_goods {
+        font-size: 10px;
+        margin-top: 5%;
+        max-width: 95%;
+        height: 20%;
+    }
+    .price_goods {
+        font-size: 12px;
+        margin-top: 5%;
+        max-width: 95%;
+        max-height: 5%;
+    }
+    .btn_cost {
+        padding: 2% 15% 2% 15%;
+    }
+    .number {
+        margin-left: 5%;
+    }
+    .plus {
+        font-size: 18px;
+        width: 15%;
+    }
+    .minus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .count {
+        font-size: 20px;
+        width: 55%;
+    }
+    .cost_txt {
+        font-size: 20px;
+    } 
+    .cost-content {
+        font-size: 14px;
+    }
+    .delete_cost img{
+        width: 80%;
+    }
+    .cost-order {
+        font-size: 14px;
+    }
+    .btn-order {
+        font-size: 12px;
+        color: #36BBCE;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 15% 1% 15%;
+        margin: 5% 10% 5% 10% ;
+    }
+    .title_add_aplication {
+        font-size: 20px;
+    }
+    .title_your_aplications {
+        font-size: 20px;
+    }
+    .add_aplication {
+        font-size: 16px;
+    }
+    .add_application-btn {
+        font-size: 12px;
+    }
+    .date_info {
+        font-size: 18px;
+    }
+    .list_info_app {
+        font-size: 14spx;
+    }
+}
+@media (min-width: 1000px){
+    .logo_menu {
+        margin-left: 5.2%;
+        margin-top: 1.7%;
+        font-size: 24px;
+    }
+    .link_menu{
+        margin-left: 14.2%;
+        padding-top: 3.72%;
+        font-size: 16px;
+    }
+    .link_list_menu {
+        gap: 15px;
+    }
+    .connect_menu {
+        margin-left: 3.13%;
+        padding-top: 3%;
+    }
+    .slider {
+        margin-left: 5.2%;
+        margin-top: 2.1%;
+        margin-right: 5.2% ;
+    }
+    .info  {
+        margin-right: 5.2%;
+        margin-left: 5.2%;
+        margin-top: 5.2%;
+    }
+    .txt_info {
+        font-size: 24px;
+        max-height: 360px;
+        margin-bottom: 5.2%;
+    }
+    .top_img_info {
+        margin-top: 13%;
+        margin-left: 9.2%;
+    }
+    .top_img_info img {
+        width: 100%;
+    }
+    .bot_img_info{
+        margin-left: 9.2%;
+        margin-top: 2.3%;
+        gap: 9%;
+    }
+    .bot_img_info img {
+        width: 45%;
+    }
+    .title_services {
+        margin-top: 1.9%;
+        font-size: 24px;
+        margin-left: 5.2%;
+    }
+    .services {
+        margin-top: 5.2%;
+        gap: 3.9%;
+        margin-left: 17.2%;
+        margin-right: 5.2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service_el {
+        margin-top: 2.2%;
+        width: 200px;
+        height: 350px;
+        background: #DEEDEE;
+    }
+    .img_service {
+        display: block;
+        margin-top: 28.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_services {
+        max-width: 200px;
+        height: 25%;
+        margin-left: 11%;
+        margin-top: 17%;
+        font-size: 22px;
+        color: #076B7A;
+    }
+    .content-box {
+        font-size: 12px;
+    }
+    .btn_services {
+        margin-top: 18%;
+        margin-left: 21%;
+        font-size: 18px;
+        border-radius: 15px;
+        padding: 0.5% 4% 0.5% 4%;
+    }
+    .name_services {
+        width: 60%;
+    }
+    .prices_services {
+        width: 35%;
+    }
+    .add_service {
+        color: #36BBCE;
+        background-color: #DEEDEE;
+        border-radius: 6px;
+        border: 1px solid #076B7A;
+        padding: 1% 2% 1% 2%;
+    }
+    .title_data {
+        color: #076B7A;
+        margin-top: 6.9%;
+        font-size: 24px;
+        margin-left: 5.2%;
+    }
+    .data_info {
+        margin-left: 5.2%;
+        margin-top: 6.9%;
+        margin-right: 5.2%;
+        margin-bottom: 5.2%;
+        font-size: 20px;
+    }
+    .data_contact {
+        width: 40%;
+    }
+    .data_map {
+        width: 55%;
+        padding-left: 5%;
+    }
+    .end_index {
+        font-size: 24px;
+    }
+    .txt_goods {
+        font-size: 24px;
+    }
+    .map_goods {
+        width: 20.9%;
+        height: 350px;
+    }
+    .imgs_goods {
+        width: 100%;
+        height: 50%;
+    }
+    .imgs_goods img {
+        width: 99%;
+        height: 100%;
+    }
+    .name_goods {
+        font-size: 12px;
+        margin-top: 5%;
+        max-width: 95%;
+        height: 20%;
+    }
+    .price_goods {
+        font-size: 12px;
+        margin-top: 5%;
+        max-width: 95%;
+        max-height: 5%;
+    }
+    .btn_cost {
+        padding: 2% 15% 2% 15%;
+    }
+    .number {
+        margin-left: 5%;
+    }
+    .plus {
+        font-size: 18px;
+        width: 15%;
+    }
+    .minus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .count {
+        font-size: 20px;
+        width: 55%;
+    }
+    .cost_txt {
+        font-size: 24px;
+    } 
+    .cost-content {
+        font-size: 20px;
+    }
+    .delete_cost img{
+        width: 80%;
+    }
+    .cost-order {
+        font-size: 18px;
+    }
+    .btn-order {
+        font-size: 14px;
+        color: #36BBCE;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 15% 1% 15%;
+        margin: 5% 10% 5% 10% ;
+    }
+    .title_add_aplication {
+        font-size: 24px;
+    }
+    .title_your_aplications {
+        font-size: 24px;
+    }
+    .add_aplication {
+        font-size: 20px;
+    }
+    .add_application-btn {
+        font-size: 12px;
+    }
+    .date_info {
+        font-size: 20px;
+    }
+    .list_info_app {
+        font-size: 18px;
+    }
+}
+@media (min-width: 1200px){
+    .logo_menu {
+        margin-left: 5.2%;
+        margin-top: 1%;
+        font-size: 26px;
+    }
+    .link_menu{
+        margin-left: 10.2%;
+        padding-top: 3.32%;
+        font-size: 20px;
+    }
+    .link_list_menu {
+        gap: 15px;
+    }
+    .connect_menu {
+        margin-left: 3.13%;
+        padding-top: 3.2%;
+    }
+    .slider {
+        margin-left: 5.2%;
+        margin-top: 2.1%;
+        margin-right: 5.2% ;
+    }
+    .info  {
+        margin-right: 5.2%;
+        margin-left: 5.2%;
+        margin-top: 5.2%;
+    }
+    .txt_info {
+        font-size: 26px;
+        max-height: 380px;
+        margin-bottom: 5.2%;
+    }
+    .top_img_info {
+        margin-top: 13%;
+        margin-left: 9.2%;
+    }
+    .top_img_info img {
+        width: 99%;
+    }
+    .bot_img_info{
+        margin-left: 9.2%;
+        margin-top: 2.3%;
+        gap: 9%;
+    }
+    .bot_img_info img {
+        width: 45%;
+    }
+    .title_services {
+        margin-top: 1.9%;
+        font-size: 26px;
+        margin-left: 5.2%;
+    }
+    .services {
+        margin-top: 5.2%;
+        gap: 4.9%;
+        margin-left: 10.2%;
+        margin-right: 5.2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service_el {
+        margin-top: 2.2%;
+        width: 200px;
+        height: 350px;
+        background: #DEEDEE;
+    }
+    .img_service {
+        display: block;
+        margin-top: 28.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_services {
+        max-width: 200px;
+        height: 25%;
+        margin-left: 11%;
+        margin-top: 17%;
+        font-size: 22px;
+        color: #076B7A;
+    }
+    .content-box {
+        font-size: 16px;
+    }
+    .btn_services {
+        margin-top: 18%;
+        margin-left: 21%;
+        font-size: 20px;
+        border-radius: 15px;
+        padding: 0.5% 2% 0.5% 2%;
+    }
+    .name_services {
+        width: 70%;
+    }
+    .prices_services {
+        width: 30%;
+    }
+    .add_service {
+        color: #36BBCE;
+        background-color: #DEEDEE;
+        border-radius: 15px;
+        border: 1px solid #076B7A;
+        padding: 0.5% 1% 0.5% 1%;
+    }
+    .title_data {
+        color: #076B7A;
+        margin-top: 6.9%;
+        font-size: 26px;
+        margin-left: 5.2%;
+    }
+    .data_info {
+        margin-left: 5.2%;
+        margin-top: 6.9%;
+        margin-right: 5.2%;
+        margin-bottom: 5.2%;
+        font-size: 20px;
+    }
+    .data_contact {
+        width: 45%;
+    }
+    .data_map {
+        width: 55%;
+        padding-left: 5%;
+    }
+    .end_index {
+        font-size: 26px;
+    }
+    .txt_goods {
+        font-size: 26px;
+    }
+    .map_goods {
+        margin-top: 2.2%;
+        width: 20.9%;
+        height: 350px;
+    }
+    .imgs_goods {
+        width: 100%;
+        height: 50%;
+    }
+    .imgs_goods img {
+        width: 99%;
+        height: 100%;
+    }
+    .name_goods {
+        font-size: 14px;
+        margin-top: 5%;
+        max-width: 95%;
+        height: 20%;
+    }
+    .price_goods {
+        font-size: 16px;
+        margin-top: 5%;
+        max-width: 95%;
+        max-height: 5%;
+    }
+    .btn_cost {
+        margin-left: 15%;
+        padding: 2% 15% 2% 15%;
+    }
+    .number {
+        margin-left: 5%;
+    }
+    .plus {
+        font-size: 18px;
+        width: 15%;
+    }
+    .minus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .count {
+        font-size: 20px;
+        width: 55%;
+    }
+    .cost_txt {
+        font-size: 26px;
+    } 
+    .cost-content {
+        font-size: 20px;
+    }
+    .delete_cost img{
+        width: 90%;
+    }
+    .cost-order {
+        font-size: 20px;
+    }
+    .btn-order {
+        font-size: 16px;
+        color: #36BBCE;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 15% 1% 15%;
+        margin: 5% 10% 5% 10% ;
+    }
+    .title_add_aplication {
+        font-size: 26px;
+    }
+    .title_your_aplications {
+        font-size: 26px;
+    }
+    .add_aplication {
+        font-size: 20px;
+    }
+    .add_application-btn {
+        font-size: 16px;
+    }
+    .date_info {
+        font-size: 24px;
+    }
+    .list_info_app {
+        font-size: 18px;
+    }
+    .your_application {
+        gap: 5%;
+    }
+}
+@media (min-width: 1400px){
+    .logo_menu {
+        margin-left: 5.2%;
+        margin-top: 1%;
+        font-size: 26px;
+    }
+    .link_menu{
+        margin-left: 22.2%;
+        padding-top: 3.12%;
+        font-size: 20px;
+    }
+    .link_list_menu {
+        gap: 15px;
+    }
+    .connect_menu {
+        margin-left: 3.13%;
+        padding-top: 3%;
+    }
+    .slider {
+        margin-left: 5.2%;
+        margin-top: 2.1%;
+        margin-right: 5.2% ;
+    }
+    .info  {
+        margin-right: 5.2%;
+        margin-left: 5.2%;
+        margin-top: 5.2%;
+    }
+    .txt_info {
+        font-size: 30px;
+        max-height: 440px;
+        margin-bottom: 5.2%;
+    }
+    .top_img_info {
+        margin-top: 13%;
+        margin-left: 9.2%;
+    }
+    .top_img_info img {
+        width: 99%;
+    }
+    .bot_img_info{
+        margin-left: 9.2%;
+        margin-top: 2.3%;
+        gap: 9%;
+    }
+    .bot_img_info img {
+        width: 45%;
+    }
+    .title_services {
+        margin-top: 1.9%;
+        font-size: 30px;
+        margin-left: 5.2%;
+    }
+    .services {
+        margin-top: 3.2%;
+        gap: 0.9%;
+        margin-left: 5.2%;
+        margin-right: 5.2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service_el {
+        margin-top: 2.2%;
+        width: 200px;
+        height: 350px;
+        background: #DEEDEE;
+    }
+    .img_service {
+        display: block;
+        margin-top: 28.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_services {
+        max-width: 200px;
+        height: 25%;
+        margin-left: 11%;
+        margin-top: 17%;
+        font-size: 22px;
+        color: #076B7A;
+    }
+    .content-box {
+        font-size: 16px;
+    }
+    .btn_services {
+        margin-top: 18%;
+        margin-left: 21%;
+        font-size: 20px;
+        border-radius: 15px;
+        padding: 0.5% 2% 0.5% 2%;
+    }
+    .name_services {
+        width: 70%;
+    }
+    .prices_services {
+        width: 30%;
+    }
+    .add_service {
+        color: #36BBCE;
+        background-color: #DEEDEE;
+        border-radius: 15px;
+        border: 1px solid #076B7A;
+        padding: 0.5% 1% 0.5% 1%;
+    }
+    .title_data {
+        color: #076B7A;
+        margin-top: 6.9%;
+        font-size: 30px;
+        margin-left: 5.2%;
+    }
+    .data_info {
+        margin-left: 5.2%;
+        margin-top: 6.9%;
+        margin-right: 5.2%;
+        margin-bottom: 5.2%;
+        font-size: 24px;
+    }
+    .data_contact {
+        width: 45%;
+    }
+    .data_map {
+        width: 55%;
+        padding-left: 5%;
+    }
+    .end_index {
+        font-size: 30px;
+    }
+    .txt_goods {
+        font-size: 30px;
+    }
+    .map_goods {
+        margin-top: 2.2%;
+        width: 17.9%;
+        height: 400px;
+    }
+    .imgs_goods {
+        width: 100%;
+        height: 50%;
+    }
+    .imgs_goods img {
+        width: 99%;
+        height: 100%;
+    }
+    .name_goods {
+        font-size: 14px;
+        margin-top: 5%;
+        max-width: 95%;
+        height: 20%;
+    }
+    .price_goods {
+        font-size: 18px;
+        margin-top: 5%;
+        max-width: 95%;
+        max-height: 5%;
+    }
+    .btn_cost {
+        margin-left: 15%;
+        padding: 2% 15% 2% 15%;
+    }
+    .number {
+        margin-left: 5%;
+    }
+    .plus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .minus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .count {
+        font-size: 20px;
+        width: 55%;
+    }
+    .cost_txt {
+        font-size: 30px;
+    } 
+    .cost-content {
+        font-size: 24px;
+    }
+    .delete_cost img{
+        width: 90%;
+    }
+    .cost-order {
+        font-size: 20px;
+    }
+    .btn-order {
+        font-size: 16px;
+        color: #36BBCE;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 15% 1% 15%;
+        margin: 5% 10% 5% 10% ;
+    }
+    .title_add_aplication {
+        font-size: 30px;
+    }
+    .title_your_aplications {
+        font-size: 30px;
+    }
+    .add_aplication {
+        font-size: 24px;
+    }
+    .add_application-btn {
+        font-size: 16px;
+    }
+    .date_info {
+        font-size: 30px;
+    }
+    .list_info_app {
+        font-size: 24px;
+    }
+    .your_application {
+        gap: 5%;
+    }
+}
+@media (min-width: 1600px){
+    .logo_menu {
+        margin-left: 5.2%;
+        margin-top: 1%;
+        font-size: 26px;
+    }
+    .link_menu{
+        margin-left: 25.2%;
+        padding-top: 2.8%;
+        font-size: 20px;
+    }
+    .link_list_menu {
+        gap: 15px;
+    }
+    .connect_menu {
+        margin-left: 3.13%;
+        padding-top: 2.5%;
+    }
+    .slider {
+        margin-left: 5.2%;
+        margin-top: 2.1%;
+        margin-right: 5.2% ;
+    }
+    .info  {
+        margin-right: 5.2%;
+        margin-left: 5.2%;
+        margin-top: 5.2%;
+    }
+    .txt_info {
+        font-size: 34px;
+        max-height: 440px;
+        margin-bottom: 5.2%;
+    }
+    .top_img_info {
+        margin-top: 13%;
+        margin-left: 9.2%;
+    }
+    .top_img_info img {
+        width: 99%;
+    }
+    .bot_img_info{
+        margin-left: 9.2%;
+        margin-top: 2.3%;
+        gap: 9%;
+    }
+    .bot_img_info img {
+        width: 45%;
+    }
+    .title_services {
+        margin-top: 1.9%;
+        font-size: 34px;
+        margin-left: 5.2%;
+    }
+    .services {
+        margin-top: 3.2%;
+        gap: 3.2%;
+        margin-left: 5.2%;
+        margin-right: 5.2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service_el {
+        margin-top: 2.2%;
+        width: 200px;
+        height: 350px;
+        background: #DEEDEE;
+    }
+    .img_service {
+        display: block;
+        margin-top: 28.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_services {
+        max-width: 200px;
+        height: 25%;
+        margin-left: 11%;
+        margin-top: 17%;
+        font-size: 26px;
+        color: #076B7A;
+    }
+    .content-box {
+        font-size: 18px;
+    }
+    .btn_services {
+        margin-top: 18%;
+        margin-left: 21%;
+        font-size: 20px;
+        border-radius: 15px;
+        padding: 0.5% 2% 0.5% 2%;
+    }
+    .name_services {
+        width: 70%;
+    }
+    .prices_services {
+        width: 30%;
+    }
+    .add_service {
+        color: #36BBCE;
+        background-color: #DEEDEE;
+        border-radius: 15px;
+        border: 1px solid #076B7A;
+        padding: 0.5% 1% 0.5% 1%;
+    }
+    .title_data {
+        color: #076B7A;
+        margin-top: 6.9%;
+        font-size: 34px;
+        margin-left: 5.2%;
+    }
+    .data_info {
+        margin-left: 5.2%;
+        margin-top: 6.9%;
+        margin-right: 5.2%;
+        margin-bottom: 5.2%;
+        font-size: 26px;
+    }
+    .data_contact {
+        width: 45%;
+    }
+    .data_map {
+        width: 55%;
+        padding-left: 15%;
+    }
+    .end_index {
+        font-size: 34px;
+    }
+    .txt_goods {
+        font-size: 34px;
+    }
+    .map_goods {
+        margin-top: 2.2%;
+        width: 16.9%;
+        height: 400px;
+    }
+    .imgs_goods {
+        width: 100%;
+        height: 50%;
+    }
+    .imgs_goods img {
+        width: 99%;
+        height: 100%;
+    }
+    .name_goods {
+        font-size: 14px;
+        margin-top: 5%;
+        max-width: 95%;
+        height: 20%;
+    }
+    .price_goods {
+        font-size: 18px;
+        margin-top: 5%;
+        max-width: 95%;
+        max-height: 5%;
+    }
+    .btn_cost {
+        margin-left: 19%;
+        padding: 2% 15% 2% 15%;
+    }
+    .number {
+        margin-left: 5%;
+    }
+    .plus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .minus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .count {
+        font-size: 20px;
+        width: 55%;
+    }
+    .cost_txt {
+        font-size: 34px;
+    } 
+    .cost-content {
+        font-size: 26px;
+    }
+    .delete_cost img{
+        width: 90%;
+    }
+    .cost-order {
+        font-size: 20px;
+    }
+    .btn-order {
+        font-size: 16px;
+        color: #36BBCE;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 15% 1% 15%;
+        margin: 5% 10% 5% 10% ;
+    }
+    .title_add_aplication {
+        font-size: 34px;
+    }
+    .title_your_aplications {
+        font-size: 34px;
+    }
+    .add_aplication {
+        font-size: 24px;
+    }
+    .add_application-btn {
+        font-size: 16px;
+    }
+    .date_info {
+        font-size: 30px;
+    }
+    .list_info_app {
+        font-size: 24px;
+    }
+    .your_application {
+        gap: 5%;
+    }
+}
+
+@media (min-width: 1920px){
+    .logo_menu {
+        margin-left: 5.2%;
+        margin-top: 1%;
+        font-size: 26px;
+    }
+    .link_menu{
+        margin-left: 25.2%;
+        padding-top: 2.8%;
+        font-size: 20px;
+    }
+    .link_list_menu {
+        gap: 15px;
+    }
+    .connect_menu {
+        margin-left: 3.13%;
+        padding-top: 2.5%;
+    }
+    .slider {
+        margin-left: 5.2%;
+        margin-top: 2.1%;
+        margin-right: 5.2% ;
+    }
+    .info  {
+        margin-right: 5.2%;
+        margin-left: 5.2%;
+        margin-top: 5.2%;
+    }
+    .txt_info {
+        font-size: 40px;
+        max-height: 560px;
+        margin-bottom: 5.2%;
+    }
+    .top_img_info {
+        margin-top: 13%;
+        margin-left: 9.2%;
+    }
+    .top_img_info img {
+        width: 110%;
+    }
+    .bot_img_info{
+        margin-left: 9.2%;
+        margin-top: 2.3%;
+        gap: 9%;
+    }
+    .bot_img_info img {
+        width: 70%;
+    }
+    .title_services {
+        margin-top: 1.9%;
+        font-size: 40px;
+        margin-left: 5.2%;
+    }
+    .services {
+        margin-top: 3.2%;
+        gap: 2.2%;
+        margin-left: 5.2%;
+        margin-right: 5.2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service_el {
+        margin-top: 2.2%;
+        width: 250px;
+        height: 400px;
+        background: #DEEDEE;
+    }
+    .img_service {
+        display: block;
+        margin-top: 28.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_services {
+        max-width: 200px;
+        height: 25%;
+        margin-left: 11%;
+        margin-top: 17%;
+        font-size: 26px;
+        color: #076B7A;
+    }
+    .content-box {
+        font-size: 20px;
+    }
+    .btn_services {
+        margin-top: 18%;
+        margin-left: 21%;
+        font-size: 20px;
+        border-radius: 15px;
+        padding: 0.5% 2% 0.5% 2%;
+    }
+    .name_services {
+        width: 70%;
+    }
+    .prices_services {
+        width: 30%;
+    }
+    .add_service {
+        color: #36BBCE;
+        background-color: #DEEDEE;
+        border-radius: 15px;
+        border: 1px solid #076B7A;
+        padding: 0.5% 1% 0.5% 1%;
+    }
+    .title_data {
+        color: #076B7A;
+        margin-top: 6.9%;
+        font-size: 40px;
+        margin-left: 5.2%;
+    }
+    .data_info {
+        margin-left: 5.2%;
+        margin-top: 6.9%;
+        margin-right: 5.2%;
+        margin-bottom: 5.2%;
+        font-size: 30px;
+    }
+    .data_contact {
+        width: 45%;
+    }
+    .data_map {
+        width: 55%;
+        padding-left: 15%;
+    }
+    .end_index {
+        font-size: 34px;
+    }
+    .txt_goods {
+        font-size: 40px;
+    }
+    .goods_list {
+        gap: 1.5%;
+    }
+    .map_goods {
+        margin-top: 2.2%;
+        width: 15.9%;
+        height: 400px;
+    }
+    .imgs_goods {
+        width: 100%;
+        height: 50%;
+    }
+    .imgs_goods img {
+        width: 99%;
+        height: 100%;
+    }
+    .name_goods {
+        font-size: 16px;
+        margin-top: 5%;
+        max-width: 95%;
+        height: 20%;
+    }
+    .price_goods {
+        font-size: 18px;
+        margin-top: 5%;
+        max-width: 95%;
+        max-height: 5%;
+    }
+    .btn_cost {
+        margin-left: 19%;
+        padding: 2% 15% 2% 15%;
+    }
+    .number {
+        margin-left: 5%;
+    }
+    .plus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .minus {
+        font-size: 20px;
+        width: 15%;
+    }
+    .count {
+        font-size: 20px;
+        width: 55%;
+    }
+    .cost_txt {
+        font-size: 40px;
+    } 
+    .cost-content {
+        font-size: 30px;
+    }
+    .delete_cost img{
+        width: 90%;
+    }
+    .cost-order {
+        font-size: 24px;
+    }
+    .btn-order {
+        font-size: 18px;
+        color: #36BBCE;
+        align-items: center;
+        justify-content: center;
+        padding: 1% 15% 1% 15%;
+        margin: 5% 10% 5% 10% ;
+    }
+    .title_add_aplication {
+        font-size: 40px;
+    }
+    .title_your_aplications {
+        font-size: 40px;
+    }
+    .add_aplication {
+        font-size: 24px;
+    }
+    .add_application-btn {
+        font-size: 16px;
+    }
+    .date_info {
+        font-size: 30px;
+    }
+    .list_info_app {
+        font-size: 24px;
+    }
+    .your_application {
+        gap: 5%;
+    }
 }

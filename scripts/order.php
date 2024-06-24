@@ -23,17 +23,10 @@
                     $list_cartQ = mysqli_fetch_assoc($cartQ); 
                     $messege .= $list_cartQ['name'];   
                 } 
-                    echo 'Заказ принят';
-                    $body = "Заказ:
-                    Клиент $clientName, Телефон $telephon
-                    Заказано 
-                    $messege
-                    ";
-                    $to = "work@mail.ru";
-                    $subject = "Новый заказ оформлен";
-                    $mail_header = "From: autodiagnostic@site.su\r\n";
-                    $mail_header .= "X-Mailer: PHP/".phpversion();
-                    mail($to, $subject, $body, $mail_header);
+                    echo '
+                    <h3>Ваш заказ принят!<h3>
+                    <p>Ваш заказ принят и находится в обработке ожидайте с вами в скоре свяжутся!</p>
+                    ';
                     unset($_COOKIE['bascet']);
                     setcookie('bascet', null, -1, '/');
             }

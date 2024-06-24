@@ -74,12 +74,12 @@
                                 <img src=<?=$goods[2]?>>
                             </div>
                             <div class="name_goods">
-                                <h4><?=$goods[1]?></h4>
+                                <?=$goods[1]?>
                             </div>
                             <div class="number" data-step="1" data-min="1" data-max="100">
-                                <button class="plus">+</button>
-                                <input class="count" type="text" name="count" value="1">
                                 <button class="minus">-</button>
+                                <input class="count" type="text" name="count" value="1">
+                                <button class="plus">+</button>
                             </div>
                             <div class="price_goods">
                                 <p>От <?=$goods[3]?> рублей</p>
@@ -92,7 +92,7 @@
         </div>
         <script>
         $(document).ready(function(){
-            let val = 0
+            let val = 1
             $('body').on('click', '.minus, .plus', function(){
                 let $row = $(this).closest('.number');
                 let $input = $row.find('.count');
